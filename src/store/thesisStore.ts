@@ -149,7 +149,7 @@
 
 import { create } from 'zustand';
 import { supabase } from '../lib/supabase';
-import { Database } from './database'; // Ensure this import path is correct
+import { Database } from './types/database'; // Ensure this import path is correct
 
 // Define the store interface based on your database schema
 interface ThesisState {
